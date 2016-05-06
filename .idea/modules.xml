@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidHacks.iml" filepath="$PROJECT_DIR$/AndroidHacks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Animation/Animation.iml" filepath="$PROJECT_DIR$/Animation/Animation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BuildTools/BuildTools.iml" filepath="$PROJECT_DIR$/BuildTools/BuildTools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Database/Database.iml" filepath="$PROJECT_DIR$/Database/Database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Layout/Layout.iml" filepath="$PROJECT_DIR$/Layout/Layout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Optimize/Optimize.iml" filepath="$PROJECT_DIR$/Optimize/Optimize.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/Patterns/Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReusableCode/ReusableCode.iml" filepath="$PROJECT_DIR$/ReusableCode/ReusableCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Utilities/Utilities.iml" filepath="$PROJECT_DIR$/Utilities/Utilities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WidgetUse/WidgetUse.iml" filepath="$PROJECT_DIR$/WidgetUse/WidgetUse.iml" />
+    </modules>
+  </component>
+</project>
