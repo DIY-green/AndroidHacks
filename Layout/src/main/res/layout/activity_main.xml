@@ -7,10 +7,67 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.diygreen.optimize.MainActivity">
+    tools:context="com.diygreen.androidhackslayout.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/tv_introduce"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="这里将收集 Android 布局相关的一些技巧（窍门），以及关于布局的改进和优化。" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hack1 使用 weight 属性实现视图的居中显示"
+        android:id="@+id/btn_hack1"
+        android:layout_below="@+id/tv_introduce"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hack2 使用&lt;include />标签避免代码重复"
+        android:id="@+id/btn_hack2"
+        android:layout_below="@+id/btn_hack1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hack3 使用&lt;merge />标签减少布局层级"
+        android:id="@+id/btn_hack3"
+        android:layout_below="@+id/btn_hack2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hack4 使用ViewStub实现延迟加载"
+        android:id="@+id/btn_hack4"
+        android:layout_below="@+id/btn_hack3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hack5 创建定制的ViewGroup"
+        android:id="@+id/btn_hack5"
+        android:layout_below="@+id/btn_hack4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
+
 </RelativeLayout>
