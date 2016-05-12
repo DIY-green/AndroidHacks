@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Animation</string>
+    <string name="app_name">AndroidHacksAnimation</string>
+    <string name="animation_2_text_1">唐僧</string>
+    <string name="animation_2_text_2">孙行者</string>
+    <string name="animation_2_text_3">猪悟能</string>
+    <string name="animation_2_text_4">沙和尚</string>
+    <string name="animation_2_instructions">选择一个动画</string>
 </resources>

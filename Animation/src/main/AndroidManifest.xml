@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.diygreen.animation">
+    package="com.diygreen.androidhacksanimation">
 
     <application
         android:allowBackup="true"
@@ -15,6 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TextSwitcherActivity" />
+        <activity android:name=".ImageSwitcherActivity" />
+        <activity android:name=".ViewFlipperActivity" />
+        <activity android:name=".VGChildrenAnimActivity" />
+        <activity android:name=".CanvasAnimActivity" />
+        <activity android:name=".KenBurnsActivity"></activity>
     </application>
 
 </manifest>
